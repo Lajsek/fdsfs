@@ -14,6 +14,10 @@
 		3F1AF4002B038F2C002B08B3 /* fdsfsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1AF3FF2B038F2C002B08B3 /* fdsfsTests.swift */; };
 		3F1AF40A2B038F2C002B08B3 /* fdsfsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1AF4092B038F2C002B08B3 /* fdsfsUITests.swift */; };
 		3F1AF40C2B038F2C002B08B3 /* fdsfsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1AF40B2B038F2C002B08B3 /* fdsfsUITestsLaunchTests.swift */; };
+		3F1AF4192B038FA4002B08B3 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1AF4182B038FA4002B08B3 /* ButtonView.swift */; };
+		3F1AF41B2B038FB1002B08B3 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1AF41A2B038FB1002B08B3 /* CardView.swift */; };
+		3F1AF41D2B038FEC002B08B3 /* MemoGameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1AF41C2B038FEC002B08B3 /* MemoGameModel.swift */; };
+		3F1AF41F2B039016002B08B3 /* MemoGameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1AF41E2B039016002B08B3 /* MemoGameViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		3F1AF4052B038F2C002B08B3 /* fdsfsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fdsfsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F1AF4092B038F2C002B08B3 /* fdsfsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fdsfsUITests.swift; sourceTree = "<group>"; };
 		3F1AF40B2B038F2C002B08B3 /* fdsfsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fdsfsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3F1AF4182B038FA4002B08B3 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		3F1AF41A2B038FB1002B08B3 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		3F1AF41C2B038FEC002B08B3 /* MemoGameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoGameModel.swift; sourceTree = "<group>"; };
+		3F1AF41E2B039016002B08B3 /* MemoGameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoGameViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +106,10 @@
 				3F1AF3F02B038F2B002B08B3 /* ContentView.swift */,
 				3F1AF3F22B038F2C002B08B3 /* Assets.xcassets */,
 				3F1AF3F42B038F2C002B08B3 /* Preview Content */,
+				3F1AF4182B038FA4002B08B3 /* ButtonView.swift */,
+				3F1AF41A2B038FB1002B08B3 /* CardView.swift */,
+				3F1AF41C2B038FEC002B08B3 /* MemoGameModel.swift */,
+				3F1AF41E2B039016002B08B3 /* MemoGameViewModel.swift */,
 			);
 			path = fdsfs;
 			sourceTree = "<group>";
@@ -257,8 +269,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F1AF41D2B038FEC002B08B3 /* MemoGameModel.swift in Sources */,
 				3F1AF3F12B038F2B002B08B3 /* ContentView.swift in Sources */,
+				3F1AF41F2B039016002B08B3 /* MemoGameViewModel.swift in Sources */,
 				3F1AF3EF2B038F2B002B08B3 /* fdsfsApp.swift in Sources */,
+				3F1AF41B2B038FB1002B08B3 /* CardView.swift in Sources */,
+				3F1AF4192B038FA4002B08B3 /* ButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
